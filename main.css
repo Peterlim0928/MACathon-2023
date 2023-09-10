@@ -188,6 +188,8 @@ section.article p{
 }
 
 section.article img{
+     display: block;
+    margin: 0 auto; 
     width: 50%;
     height: 50%;
     border-radius: 20px;
@@ -312,4 +314,11 @@ section.article img{
   height: 750px; /* Set the height of the images */
 }
 
+.home-btn {
+  font-size: 36px;
+  display: block; 
+  text-align: center;
+  margin-top: 3%;
+  padding-bottom: 3%;
+}
 
