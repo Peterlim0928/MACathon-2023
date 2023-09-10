@@ -188,6 +188,8 @@ section.article p{
 }
 
 section.article img{
+     display: block;
+    margin: 0 auto; 
     width: 50%;
     height: 50%;
     border-radius: 20px;
@@ -303,4 +305,12 @@ section.article img{
     color: #29323f;
     margin: 0 0 30px 0;
     font-size: 60px;
+}
+
+.home-btn {
+  font-size: 36px;
+  display: block; 
+  text-align: center;
+  margin-top: 3%;
+  padding-bottom: 3%;
 }
