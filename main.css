@@ -307,6 +307,13 @@ section.article img{
     font-size: 60px;
 }
 
+.image-container {
+  display: flex; /* Use flexbox to align images side by side */
+  margin-right: 30px;
+  width: 1000px; /* Set the width of the images */
+  height: 750px; /* Set the height of the images */
+}
+
 .home-btn {
   font-size: 36px;
   display: block; 
@@ -314,3 +321,4 @@ section.article img{
   margin-top: 3%;
   padding-bottom: 3%;
 }
+
