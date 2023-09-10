@@ -307,11 +307,44 @@ section.article img{
     font-size: 60px;
 }
 
+section.article_2{
+  width: 80%;
+  margin: 0 auto;
+}
+
+section.article_2 h1{
+  padding-top: 3%;
+  text-align: center;
+  color: #29323f;
+  margin: 0 0 30px 0;
+  font-size: 60px;
+}
+
+section.article_2 h2{
+  padding-top: 3%;
+  text-align: left;
+  color: #29323f;
+  margin: 0 0 30px 0;
+  font-size: 30px;
+}
+
+section.article_2 p{
+ background-color:whitesmoke;
+ padding: 20px;
+ border-radius: 20px;
+}
+
+section.article_2 img{
+  width: 50%;
+  height: 50%;
+  border-radius: 20px;
+}
+
 .image-container {
   display: flex; /* Use flexbox to align images side by side */
   margin-right: 30px;
   width: 1000px; /* Set the width of the images */
-  height: 750px; /* Set the height of the images */
+  height: fit-content; /* Set the height of the images */
 }
 
 .home-btn {
